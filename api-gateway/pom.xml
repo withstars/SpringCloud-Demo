@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.withstars</groupId>
-	<artifactId>feign-consumer</artifactId>
+	<artifactId>api-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>feign-consumer</name>
-	<description>Feign consumer</description>
+	<name>api-gateway</name>
+	<description>api-gateway</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -55,7 +55,7 @@
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
 		</dependency>
 
 		<dependency>
